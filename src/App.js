@@ -2,7 +2,7 @@ import Main from "./components/Main";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#fcfcfb] mx-40 my-16">
       <Main />
     </div>
   );

@@ -3,7 +3,7 @@ import Planes from "./Planes";
 
 export default function Main() {
   return (
-    <div>
+    <div >
       <Planes />
     </div>
   );
