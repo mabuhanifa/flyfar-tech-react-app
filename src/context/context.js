@@ -1,9 +1,7 @@
 import { createContext } from "react";
-
+const initialState = { hi: "HI" };
 export const Context = createContext();
 
 export const Provider = ({ children }) => {
-  <Context.Provider value={{ hi: "hi" }}>{children}</Context.Provider>;
+  return <Context.Provider value={initialState}>{children}</Context.Provider>;
 };
-
-
