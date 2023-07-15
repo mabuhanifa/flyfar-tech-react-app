@@ -1,7 +1,9 @@
+import Planes from "./components/Planes";
+
 function App() {
   return (
-    <div className="bg-red-500">
-     home
+    <div>
+      <Planes />
     </div>
   );
 }
