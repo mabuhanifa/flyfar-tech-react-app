@@ -10,12 +10,12 @@ export default function Planes() {
     <div className="relative">
       <div>
         {plane ? (
-          <img src={rf} alt="plane" className="w-32" />
+          <img src={rf} alt="plane" className="w-28" />
         ) : (
           <img
             src={rb}
             alt="plane"
-            className="w-32 cursor-pointer"
+            className="w-28 cursor-pointer"
             onClick={() => setPlane(!plane)}
           />
         )}
@@ -25,11 +25,11 @@ export default function Planes() {
           <img
             src={lb}
             alt="plane"
-            className="w-32 cursor-pointer"
+            className="w-28 cursor-pointer"
             onClick={() => setPlane(!plane)}
           />
         ) : (
-          <img src={lf} alt="plane" className="w-32" />
+          <img src={lf} alt="plane" className="w-28" />
         )}
       </div>
     </div>

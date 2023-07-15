@@ -1,9 +1,9 @@
-import Planes from "./components/Planes";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
-      <Planes />
+      <Main />
     </div>
   );
 }
