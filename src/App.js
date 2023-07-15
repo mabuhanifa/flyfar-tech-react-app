@@ -5,9 +5,8 @@ function App() {
   const state  = useProvider();
   console.log(state);
   return (
-    <div className="bg-[#fcfcfb] mx-40 my-16">
+    <div className="bg-[#fcfcfb] mx-60 my-16 rounded-lg">
       <Main />
-      drfdfrtrt
     </div>
   );
 }
